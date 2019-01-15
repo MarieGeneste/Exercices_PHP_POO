@@ -1,0 +1,76 @@
+.fakeimg
+  {
+    height: 200px;
+    background: #aaa;
+  }
+
+  div .jumbotron
+  {
+    padding: 2.4rem 2rem;
+  }
+
+  button
+  {
+      width: 10rem;
+      margin: 4px;
+      text-align: center;
+  }
+
+  #bgColor, #fontColor
+  {
+    width: 10rem;
+    position: inherit;
+    margin-left: 0;
+    height: 2rem;
+  }
+
+  fieldset
+  {
+      margin: 6px;
+      border: 1px solid white;
+      padding-top: 10px;
+  }
+
+  #menu
+  {
+    height: 40vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  .menuFixe
+  {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+  }
+
+  a.nav-link::selection
+  {
+    font-weight: bold;
+  }
+
+  .margin0
+  {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: -2rem;
+  }
+
+  .btnw button
+  {
+    width: 100%;
+  }
+
+  h5
+  {
+    margin-top: 1.6rem;
+  }
